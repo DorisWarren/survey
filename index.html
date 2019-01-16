@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Survey</h1>
+      <form id="survey">
+        <h3>What type of car do you drive?</h3>
+        <select class="form-control" id="beverage">
+          <option>Jeep</option>
+          <option>BMW</option>
+          <option>Audi</option>
+          <option>Toyota</option>
+          <option>Honda</option>
+          <option>Hyundai</option>
+          <option>Ford</option>
+          <option>Dodge</option>
+          <option>Mercedes</option>
+          <option>Chevy</option>
+        </select>
+        <h3>What is your prefered mode of transportation?</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="transportation" value="Driving" checked>
+            Driving
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="transportation" value="Biking">
+            Biking
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="transportation" value="public-transportation">
+            Public Transportation
+          </label>
+        </div>
+
+        <div class="form-group">
+          <label for="born">Date of birth:</label>
+          <input id="born" class="form-control" type="date">
+        </div>
+
+        <div class="form-group">
+          <label for="color">What color are your socks?</label>
+          <input id="color" class="form-control" type="color">
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
